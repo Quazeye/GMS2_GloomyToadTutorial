@@ -13,5 +13,10 @@ if (leftKeyDown) {
 		xSpeed = xSpeed - accel;
 	}
 }
+if (!rightKeyDown && !leftKeyDown) {
+	if (xSpeed != 0) {
+		xSpeed = xSpeed - sign(xSpeed) * frict;
+	}
+}
 
 x = x + xSpeed;
