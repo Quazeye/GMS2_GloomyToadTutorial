@@ -134,6 +134,25 @@
             }
         },
         {
+            "Key": "31420b11-0bf3-44c1-bec9-2997653fca3c",
+            "Value": {
+                "id": "18f6cf9a-a2be-4867-a0c0-3229c857c7a7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_UpdatePlayerMovement\/scr_UpdatePlayerMovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "371225a1-20c0-4f17-8944-dc0bb6df1515",
             "Value": {
                 "id": "1975ca02-d0f2-47bb-bb40-f8cfefd539e7",
@@ -668,6 +687,7 @@
     ],
     "script_order": [
         "e134b06b-0231-4223-baa8-6501143d45ca",
+        "31420b11-0bf3-44c1-bec9-2997653fca3c",
         "3cbb8c46-f7f9-44b3-8d59-7b89bc9c0524"
     ],
     "tutorial": ""

@@ -8,7 +8,7 @@ global.menuKey = ord("M");
 
 global.mainLayer = "Instances";
 
-enum playerState {
+enum verticalState {
 	onGround,
 	jumping,
 	jetPacking,

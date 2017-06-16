@@ -17,5 +17,5 @@ weight = 0.5;
 jetPower = 0.12;
 jumpPower = 10;
 
-myState = playerState.onGround;
+vertState = verticalState.onGround;  // Vertial state.
 
