@@ -32,6 +32,26 @@ if (!place_meeting(x + xSpeed, y, obj_BlockParent)) {
 	xSpeed = 0;
 }
 
+// State machine for players vertical movement
+switch (vertState) {
+	case verticalState.onGround:
+		scr_PlayerStateOnGround();
+		break;
+	
+	case verticalState.jumping:
+		scr_PlayerStateJumping();
+		break;
+		
+	case verticalState.jetPacking:
+		scr_PlayerStateJetpacking();
+		break;
+		
+	case verticalState.falling:
+		scr_PlayerStateFalling();
+		break;
+}
+
+
 // ---------------------------------------------------------------
 // Vertical application and collision checks.
 if (vertState != verticalState.onGround) {

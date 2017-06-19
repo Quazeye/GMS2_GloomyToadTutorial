@@ -77,6 +77,44 @@
             }
         },
         {
+            "Key": "107c07e8-48ab-4213-b6fa-691dced40f4b",
+            "Value": {
+                "id": "2adf7365-3009-4e75-88c2-0c0bfdc71c33",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_PlayerStateJumping\/scr_PlayerStateJumping.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1ec44045-a18b-4fdb-9f61-723ee4e27724",
+            "Value": {
+                "id": "f9cf1967-4eac-4ea3-a3b9-bc2357394304",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_PlayerStateFalling\/scr_PlayerStateFalling.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22457d00-eb1c-471f-8ba7-fdf709b12cd5",
             "Value": {
                 "id": "50f71e88-4b4b-47e4-8d5b-bba6a9a0ca86",
@@ -267,6 +305,25 @@
             }
         },
         {
+            "Key": "64511f15-38e0-4db2-8dc5-18535ca76333",
+            "Value": {
+                "id": "73ba3b4d-030d-4461-9c7e-7b97460c93b0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/64511f15-38e0-4db2-8dc5-18535ca76333.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6cfe069f-19c3-46cf-bb81-f5248004670c",
             "Value": {
                 "id": "469fb966-88ee-451f-8496-7c94acb31332",
@@ -321,6 +378,44 @@
                 ],
                 "resourcePath": "views\/78d1c1bb-1baf-45cd-b8b7-fc71ca1390dc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "87906d81-086a-4bf9-9e16-7f96db5edac9",
+            "Value": {
+                "id": "8d7ef727-5b97-4899-9618-d432b094dd0f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_PlayerStateOnGround\/scr_PlayerStateOnGround.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8881a442-1e32-4814-aa37-d311455c5e90",
+            "Value": {
+                "id": "59bfc2c8-ea5b-4ae5-bc4a-8cb60126dd5c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_PlayerStateJetpacking\/scr_PlayerStateJetpacking.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -688,6 +783,10 @@
     "script_order": [
         "e134b06b-0231-4223-baa8-6501143d45ca",
         "31420b11-0bf3-44c1-bec9-2997653fca3c",
+        "87906d81-086a-4bf9-9e16-7f96db5edac9",
+        "107c07e8-48ab-4213-b6fa-691dced40f4b",
+        "8881a442-1e32-4814-aa37-d311455c5e90",
+        "1ec44045-a18b-4fdb-9f61-723ee4e27724",
         "3cbb8c46-f7f9-44b3-8d59-7b89bc9c0524"
     ],
     "tutorial": ""
