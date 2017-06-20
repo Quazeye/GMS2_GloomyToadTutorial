@@ -14,3 +14,5 @@ enum verticalState {
 	jetPacking,
 	falling
 }
+
+randomize();

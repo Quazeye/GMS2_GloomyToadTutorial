@@ -799,6 +799,25 @@
             }
         },
         {
+            "Key": "97068b8b-c76f-4a58-a8a1-f8045a7887bd",
+            "Value": {
+                "id": "688df733-e2f9-4694-aac0-6887a479a3f5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_HandlePlayerIdleAnimations\/scr_HandlePlayerIdleAnimations.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a295401e-3626-491c-bd3d-6935b0d8ed9e",
             "Value": {
                 "id": "629b57bd-c65c-46e5-877b-539dc86d0c65",
@@ -1183,6 +1202,7 @@
         "e134b06b-0231-4223-baa8-6501143d45ca",
         "31420b11-0bf3-44c1-bec9-2997653fca3c",
         "18e55fe8-9f60-4c77-9faa-52acd18b7562",
+        "97068b8b-c76f-4a58-a8a1-f8045a7887bd",
         "87906d81-086a-4bf9-9e16-7f96db5edac9",
         "107c07e8-48ab-4213-b6fa-691dced40f4b",
         "8881a442-1e32-4814-aa37-d311455c5e90",

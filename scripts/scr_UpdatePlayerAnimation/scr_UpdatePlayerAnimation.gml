@@ -2,10 +2,12 @@ switch (vertState) {
 
 	case verticalState.onGround: {
 		if (xSpeed == 0) {
-			sprite_index = spr_PlayerIdle;
+			// This is our idle state code.
+			scr_HandlePlayerIdleAnimations();
 		} else {
 			sprite_index = spr_PlayerRun;
 			image_speed = (xSpeed / maxRunSpeed);
+			idleFlag = false;
 		}
 		break;
 	}
@@ -17,6 +19,7 @@ switch (vertState) {
 		}
 		image_speed = 0;
 		jetpack.sprite_index = spr_PlayerJetpackOff;
+		idleFlag = false;
 		break;
 	}
 	
