@@ -6,6 +6,13 @@ rightKeyDown = keyboard_check(rightKey);
 leftKeyDown = keyboard_check(leftKey);
 shootKeyDown = keyboard_check(shootKey);
 
+// Make player sprite face the direction of movement
+if (xSpeed > 0) {
+	image_xscale = 1;
+} else if (xSpeed < 0) {
+	image_xscale = -1;
+}
+
 // ---------------------------------------------------------------
 // Horizontal input and motion handling with collision checks.
 if (rightKeyDown && !place_meeting(x + 1, y, obj_BlockParent)) {
