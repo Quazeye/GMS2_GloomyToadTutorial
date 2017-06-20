@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1d80e035-5dbc-4d6f-9571-e4bc8ed83d04",
+            "Value": {
+                "id": "808c35c1-6b7a-4bf3-90d6-e701c904aa2d",
+                "resourcePath": "views\\1d80e035-5dbc-4d6f-9571-e4bc8ed83d04.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1ec44045-a18b-4fdb-9f61-723ee4e27724",
             "Value": {
                 "id": "f9cf1967-4eac-4ea3-a3b9-bc2357394304",
@@ -292,6 +300,14 @@
                 "id": "b9c5516e-cd18-4461-9a78-7e014caec5f7",
                 "resourcePath": "views\\bd932b8d-083b-49a1-8ab7-7b64f9c725b8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c382a872-6c68-4baa-9d57-3be5d16ba5d4",
+            "Value": {
+                "id": "1af01394-39f0-4d9e-84d2-2dfb97853d3f",
+                "resourcePath": "objects\\obj_PlayerGun\\obj_PlayerGun.yy",
+                "resourceType": "GMObject"
             }
         },
         {

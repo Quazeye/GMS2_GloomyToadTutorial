@@ -1,4 +1,5 @@
 // Global keys found in our scr_InitializeGameController.
+// This script is run from our Players Create Event.
 jumpKey = global.jumpKey;
 rightKey = global.moveRightKey;
 leftKey = global.moveLeftKey;
@@ -20,3 +21,5 @@ jumpPower = 10;
 
 vertState = verticalState.falling;  // Vertial state.
 
+// Create our gun object and be sure it is on top of our player, not behind.
+instance_create_depth(x,y, depth - 1, obj_PlayerGun);
