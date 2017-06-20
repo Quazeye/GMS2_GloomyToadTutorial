@@ -457,6 +457,25 @@
             }
         },
         {
+            "Key": "595bed0c-c62d-40ee-9cfa-99db5b91cf84",
+            "Value": {
+                "id": "17c318ca-2cd6-442d-ab6a-7b0482ae84d4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove6\/spr_PlayerIdleEyeMove6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c4bd644-2adb-4eaf-a54e-6bf225e3b0fe",
             "Value": {
                 "id": "42107139-daa2-4e8f-b732-8f848f09211b",
@@ -492,6 +511,25 @@
                 ],
                 "resourcePath": "views\/64511f15-38e0-4db2-8dc5-18535ca76333.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "65bf1c9c-aa89-4693-838d-ec5b37d46a5a",
+            "Value": {
+                "id": "839f3d37-cee1-458a-b37b-595371d51d38",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove3\/spr_PlayerIdleEyeMove3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -644,6 +682,25 @@
                 ],
                 "resourcePath": "views\/8a7bf041-8bb1-4793-a766-78fedc24240c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e519007-93a7-4de7-b59b-465412a87560",
+            "Value": {
+                "id": "2eaba53d-9fb4-4ae1-9ea4-346e3552c6e4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_PlayerJetpack\/obj_PlayerJetpack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1003,7 +1060,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/spr_PlayerIdleEyeMove3\/spr_PlayerIdleEyeMove3.yy",
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove7\/spr_PlayerIdleEyeMove7.yy",
                 "resourceType": "GMSprite"
             }
         },

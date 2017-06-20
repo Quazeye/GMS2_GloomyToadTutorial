@@ -16,6 +16,7 @@ switch (vertState) {
 			image_index = 1;
 		}
 		image_speed = 0;
+		jetpack.sprite_index = spr_PlayerJetpackOff;
 		break;
 	}
 	
@@ -30,6 +31,7 @@ switch (vertState) {
 		sprite_index = spr_PlayerInAir;
 		image_index = 0;
 		image_speed = 0;
+		jetpack.sprite_index = spr_PlayerJetpackOn;
 		break;
 	}
 

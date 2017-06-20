@@ -23,3 +23,5 @@ vertState = verticalState.falling;  // Vertial state.
 
 // Create our gun object and be sure it is on top of our player, not behind.
 instance_create_depth(x,y, depth - 1, obj_PlayerGun);
+
+jetpack = instance_create_depth(x,y, depth + 1, obj_PlayerJetpack);

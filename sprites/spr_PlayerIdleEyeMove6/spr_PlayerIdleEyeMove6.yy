@@ -1,8 +1,8 @@
 {
-    "id": "65bf1c9c-aa89-4693-838d-ec5b37d46a5a",
+    "id": "595bed0c-c62d-40ee-9cfa-99db5b91cf84",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_PlayerIdleEyeMove3",
+    "name": "spr_PlayerIdleEyeMove6",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -15,24 +15,24 @@
     "coltolerance": 0,
     "frames": [
         {
-            "id": "9103ebe4-1ab8-4fe1-af48-f92150fcf722",
+            "id": "0072b294-c700-4c34-9ddb-91dab8c2a41f",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "65bf1c9c-aa89-4693-838d-ec5b37d46a5a",
+            "SpriteId": "595bed0c-c62d-40ee-9cfa-99db5b91cf84",
             "compositeImage": {
-                "id": "fc31e2c7-684e-4c85-92eb-8bd1067a3269",
+                "id": "9a614fea-9569-44f6-b9d8-cea264296c17",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "9103ebe4-1ab8-4fe1-af48-f92150fcf722",
+                "FrameId": "0072b294-c700-4c34-9ddb-91dab8c2a41f",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "97b22ae0-57c2-4785-af90-85b6ad9afb46",
+                    "id": "88dc5902-7f49-494f-a5b8-cb4fc05b92c5",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "9103ebe4-1ab8-4fe1-af48-f92150fcf722",
-                    "LayerId": "4d4af8d9-cb78-477b-8f2f-5d61c10591de"
+                    "FrameId": "0072b294-c700-4c34-9ddb-91dab8c2a41f",
+                    "LayerId": "b7c2da73-8856-4cc8-9914-e6e724c70661"
                 }
             ]
         }
@@ -42,10 +42,10 @@
     "height": 64,
     "layers": [
         {
-            "id": "4d4af8d9-cb78-477b-8f2f-5d61c10591de",
+            "id": "b7c2da73-8856-4cc8-9914-e6e724c70661",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "65bf1c9c-aa89-4693-838d-ec5b37d46a5a",
+            "SpriteId": "595bed0c-c62d-40ee-9cfa-99db5b91cf84",
             "blendMode": 0,
             "isLocked": false,
             "name": "Player Body",
