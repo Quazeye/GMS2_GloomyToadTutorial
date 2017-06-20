@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "07c150b9-9221-4cd9-9b28-d48037ee7845",
+            "Value": {
+                "id": "3a282fef-a90f-465f-8662-b2b398502de2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove1\/spr_PlayerIdleEyeMove1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e54748c-116c-46f3-aee8-ab07706bb99b",
             "Value": {
                 "id": "503e7d75-0754-4dd4-96eb-9b4f1b4bd6d5",
@@ -172,6 +191,25 @@
             }
         },
         {
+            "Key": "202d4fb1-9615-4f96-95cc-82c0cef4d455",
+            "Value": {
+                "id": "82292681-f18e-4c08-af65-ba3d442e83b4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/202d4fb1-9615-4f96-95cc-82c0cef4d455.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "22457d00-eb1c-471f-8ba7-fdf709b12cd5",
             "Value": {
                 "id": "50f71e88-4b4b-47e4-8d5b-bba6a9a0ca86",
@@ -225,6 +263,25 @@
                     "default"
                 ],
                 "resourcePath": "views\/28736ddd-2339-42b5-b457-d2cba7d376ed.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a28a940-1858-43e0-828e-0e4f558bcd68",
+            "Value": {
+                "id": "7b1e0f50-f311-43d9-ac90-1523c4fe325a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/2a28a940-1858-43e0-828e-0e4f558bcd68.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -340,6 +397,25 @@
                 ],
                 "resourcePath": "objects\/obj_GameController\/obj_GameController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "47c2df49-2db5-4664-99ed-16ab6259beaa",
+            "Value": {
+                "id": "5f4a578c-352e-4f87-a040-cedc2b7453b5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleBlink\/spr_PlayerIdleBlink.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -571,6 +647,25 @@
             }
         },
         {
+            "Key": "902b6d39-4ec1-44b0-91ac-860927b6a2bb",
+            "Value": {
+                "id": "7bfb8c17-82cd-4301-ba38-04a7f3f1f7ad",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove4\/spr_PlayerIdleEyeMove4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
             "Value": {
                 "id": "a31de763-406c-4044-a90f-983e1f628b2c",
@@ -780,6 +875,25 @@
             }
         },
         {
+            "Key": "c968618b-b4b1-4ce8-af02-c706cb6510f9",
+            "Value": {
+                "id": "65bc1e92-be0d-4009-b4ae-1425ed0bd545",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove5\/spr_PlayerIdleEyeMove5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "3b3fc528-43ab-430a-8808-34c810c00f5b",
@@ -875,6 +989,25 @@
             }
         },
         {
+            "Key": "e061d904-b391-49f2-9618-893135dfc5fc",
+            "Value": {
+                "id": "f0b3b3c7-c568-402c-8f4f-d878b1f042e5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove3\/spr_PlayerIdleEyeMove3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e134b06b-0231-4223-baa8-6501143d45ca",
             "Value": {
                 "id": "11b76860-547e-4be5-90dc-16cb36ad595a",
@@ -891,6 +1024,25 @@
                 ],
                 "resourcePath": "scripts\/scr_InitializePlayer\/scr_InitializePlayer.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e55acabc-38c2-404c-a5c0-8030d8a766fa",
+            "Value": {
+                "id": "545e8d13-dbd6-4191-9395-ad85947966ba",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PlayerIdleEyeMove2\/spr_PlayerIdleEyeMove2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
