@@ -7,35 +7,13 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 63,
-    "bbox_left": 8,
+    "bbox_left": 0,
     "bbox_right": 63,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [
-        {
-            "id": "c374dcdf-8346-465a-ae92-c6b7db9397ab",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
-            "compositeImage": {
-                "id": "49a79807-5d27-405e-bc29-b4d32bdd2a4d",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "c374dcdf-8346-465a-ae92-c6b7db9397ab",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "0c2c04c2-9886-4d32-9dce-7d3c4c7f6a72",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "c374dcdf-8346-465a-ae92-c6b7db9397ab",
-                    "LayerId": "2eaa290d-fe63-4eae-93c4-daf8481bb100"
-                }
-            ]
-        },
         {
             "id": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
             "modelName": "GMSpriteFrame",
@@ -55,28 +33,20 @@
                     "mvc": "1.0",
                     "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
                     "LayerId": "2eaa290d-fe63-4eae-93c4-daf8481bb100"
-                }
-            ]
-        },
-        {
-            "id": "365bbbdc-ae88-4ee6-8c57-03239d140010",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
-            "compositeImage": {
-                "id": "43dba622-310c-4505-a221-cc2ff6e1f073",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "365bbbdc-ae88-4ee6-8c57-03239d140010",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
+                },
                 {
-                    "id": "c6c65b8d-817b-4cd8-9dd2-1c87912e6646",
+                    "id": "e634a80c-cedd-4c9d-a174-2e4bd1e7e8a1",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "365bbbdc-ae88-4ee6-8c57-03239d140010",
-                    "LayerId": "2eaa290d-fe63-4eae-93c4-daf8481bb100"
+                    "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
+                    "LayerId": "91a0157a-5ebf-4c87-905f-ea87f873bcc2"
+                },
+                {
+                    "id": "27983c5f-a2bb-4994-bbe5-ae1fc55cf2de",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
+                    "LayerId": "26801b5c-c336-4772-abfc-de4aed80c3eb"
                 }
             ]
         }
@@ -86,13 +56,35 @@
     "height": 64,
     "layers": [
         {
+            "id": "91a0157a-5ebf-4c87-905f-ea87f873bcc2",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Player Gun",
+            "opacity": 100,
+            "visible": true
+        },
+        {
             "id": "2eaa290d-fe63-4eae-93c4-daf8481bb100",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
             "blendMode": 0,
             "isLocked": false,
-            "name": "default",
+            "name": "Player Body",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "26801b5c-c336-4772-abfc-de4aed80c3eb",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Jetpack",
             "opacity": 100,
             "visible": true
         }
