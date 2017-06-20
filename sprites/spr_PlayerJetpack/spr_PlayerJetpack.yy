@@ -1,38 +1,38 @@
 {
-    "id": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+    "id": "19566a8f-a849-495b-a65e-244fd7614d22",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Player",
+    "name": "spr_PlayerJetpack",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
-    "bbox_left": 8,
-    "bbox_right": 55,
-    "bbox_top": 0,
+    "bbox_bottom": 55,
+    "bbox_left": 0,
+    "bbox_right": 19,
+    "bbox_top": 32,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [
         {
-            "id": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
+            "id": "dd3569cc-cce6-4823-82ee-9ea0a0fde392",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+            "SpriteId": "19566a8f-a849-495b-a65e-244fd7614d22",
             "compositeImage": {
-                "id": "baf1e9e6-dbb8-4e0e-8fc4-85ed367c6eb0",
+                "id": "33be9cd3-4d73-44e6-a174-fb8c9b5a2aa1",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
+                "FrameId": "dd3569cc-cce6-4823-82ee-9ea0a0fde392",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "9ba2b6c9-6e2b-4d3e-ba2a-280a000ca76a",
+                    "id": "3004aebe-7008-494f-b85b-38682437e01a",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
-                    "LayerId": "2eaa290d-fe63-4eae-93c4-daf8481bb100"
+                    "FrameId": "dd3569cc-cce6-4823-82ee-9ea0a0fde392",
+                    "LayerId": "c8cc696d-9e6e-49fe-856f-f8a608e21645"
                 }
             ]
         }
@@ -42,13 +42,13 @@
     "height": 64,
     "layers": [
         {
-            "id": "2eaa290d-fe63-4eae-93c4-daf8481bb100",
+            "id": "c8cc696d-9e6e-49fe-856f-f8a608e21645",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+            "SpriteId": "19566a8f-a849-495b-a65e-244fd7614d22",
             "blendMode": 0,
             "isLocked": false,
-            "name": "Player Body",
+            "name": "Jetpack",
             "opacity": 100,
             "visible": true
         }

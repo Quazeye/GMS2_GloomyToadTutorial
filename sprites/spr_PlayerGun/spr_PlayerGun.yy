@@ -1,38 +1,38 @@
 {
-    "id": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+    "id": "50300bce-007e-44e1-880f-f53c568b72c4",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_Player",
+    "name": "spr_PlayerGun",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
-    "bbox_left": 8,
-    "bbox_right": 55,
-    "bbox_top": 0,
+    "bbox_bottom": 55,
+    "bbox_left": 28,
+    "bbox_right": 63,
+    "bbox_top": 36,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [
         {
-            "id": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
+            "id": "f790c5f4-fb30-4581-bf5d-e3886c04d8da",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
-            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+            "SpriteId": "50300bce-007e-44e1-880f-f53c568b72c4",
             "compositeImage": {
-                "id": "baf1e9e6-dbb8-4e0e-8fc4-85ed367c6eb0",
+                "id": "95b99a75-5362-46c9-a1ef-f692122ad155",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
+                "FrameId": "f790c5f4-fb30-4581-bf5d-e3886c04d8da",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "9ba2b6c9-6e2b-4d3e-ba2a-280a000ca76a",
+                    "id": "b5339ad0-5208-4d53-abf8-eb148df20758",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "22588c6c-608a-41d5-9f54-3da5ebeab8d5",
-                    "LayerId": "2eaa290d-fe63-4eae-93c4-daf8481bb100"
+                    "FrameId": "f790c5f4-fb30-4581-bf5d-e3886c04d8da",
+                    "LayerId": "d84862cd-a17b-4ebe-adb8-bd48962c1c5d"
                 }
             ]
         }
@@ -42,13 +42,13 @@
     "height": 64,
     "layers": [
         {
-            "id": "2eaa290d-fe63-4eae-93c4-daf8481bb100",
+            "id": "d84862cd-a17b-4ebe-adb8-bd48962c1c5d",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
-            "SpriteId": "941b52a9-55c2-4004-8874-8d17ab64a8f5",
+            "SpriteId": "50300bce-007e-44e1-880f-f53c568b72c4",
             "blendMode": 0,
             "isLocked": false,
-            "name": "Player Body",
+            "name": "Player Gun",
             "opacity": 100,
             "visible": true
         }
