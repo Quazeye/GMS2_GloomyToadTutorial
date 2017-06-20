@@ -314,8 +314,8 @@
         "id": "605264d2-a7b2-4049-9562-cb5235cd20f1",
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
-        "Height": 768,
-        "Width": 1024,
+        "Height": 1536,
+        "Width": 2048,
         "inheritRoomSettings": false,
         "persistent": false
     },
@@ -325,7 +325,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -340,7 +340,7 @@
             "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
-            "visible": false,
+            "visible": true,
             "vspeed": -1,
             "wport": 1024,
             "wview": 1024,
