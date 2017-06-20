@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "18e55fe8-9f60-4c77-9faa-52acd18b7562",
+            "Value": {
+                "id": "3f91107c-5d51-48c2-bc20-b2ba99cb2a58",
+                "resourcePath": "scripts\\scr_UpdatePlayerAnimation\\scr_UpdatePlayerAnimation.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "19566a8f-a849-495b-a65e-244fd7614d22",
             "Value": {
                 "id": "44f14d72-75b8-407f-a28d-4871523f854c",
@@ -402,6 +410,7 @@
     "script_order": [
         "e134b06b-0231-4223-baa8-6501143d45ca",
         "31420b11-0bf3-44c1-bec9-2997653fca3c",
+        "18e55fe8-9f60-4c77-9faa-52acd18b7562",
         "87906d81-086a-4bf9-9e16-7f96db5edac9",
         "107c07e8-48ab-4213-b6fa-691dced40f4b",
         "8881a442-1e32-4814-aa37-d311455c5e90",
