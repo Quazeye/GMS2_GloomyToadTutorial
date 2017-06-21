@@ -7,10 +7,15 @@ leftKeyDown = keyboard_check(leftKey);
 shootKeyDown = keyboard_check(shootKey);
 
 // Make player sprite face the direction of movement
-if (xSpeed > 0) {
-	image_xscale = 1;
-} else if (xSpeed < 0) {
-	image_xscale = -1;
+//if (xSpeed > 0) {
+//	image_xscale = 1;
+//} else if (xSpeed < 0) {
+//	image_xscale = -1;
+//}
+
+// This replaces the above if statement and does the same thing.
+if (xSpeed != 0) {
+	image_xscale = sign(xSpeed);
 }
 
 // ---------------------------------------------------------------
