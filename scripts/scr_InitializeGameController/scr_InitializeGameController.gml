@@ -19,3 +19,6 @@ randomize();
 
 // Create Camera
 instance_create_layer(0,0, global.mainLayer, obj_Camera);
+
+// Player Stats
+playerGunFireRate = 20;
