@@ -1,5 +1,5 @@
 // Ssving the state of keyboard checks for easier changing of actions later
-// and easier readability.
+// and easier readability.  These are booleans returning true or false.
 upKeyDown = keyboard_check(jumpKey);
 upKeyPressed = keyboard_check_pressed(jumpKey)
 rightKeyDown = keyboard_check(rightKey);

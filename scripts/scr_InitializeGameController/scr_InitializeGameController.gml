@@ -8,6 +8,7 @@ global.menuKey = ord("M");
 
 global.mainLayer = "Instances";
 
+// Vertical state used by obj_Player for checking vertical actions
 enum verticalState {
 	onGround,
 	jumping,
@@ -15,9 +16,10 @@ enum verticalState {
 	falling
 }
 
+// Needs to be called so that random functions can create different results.
 randomize();
 
-// Create Camera
+// Create main camera that follows player.
 instance_create_layer(0,0, global.mainLayer, obj_Camera);
 
 // Player Stats

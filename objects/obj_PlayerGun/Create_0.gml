@@ -1,3 +1,3 @@
 /// @description Initialize
 
-scr_InitializePlayerGun();
+scr_InitializePlayerGun(); // Initialize gun variables.
