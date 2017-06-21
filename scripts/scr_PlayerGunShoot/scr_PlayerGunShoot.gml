@@ -1,6 +1,7 @@
 if (--shotTimer <= 0) {
 	if (keyboard_check(global.shootGunKey)) {
 		shotTimer = fireRate;
+		x -= image_xscale * recoilAmt;
 		inst = instance_create_layer(x,y + 44, global.mainLayer, obj_PlayerGunBullet);
 		
 		 // This checks if image_xscale is equal to 1, the ? ends the check, 
