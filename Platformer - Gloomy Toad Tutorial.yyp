@@ -210,6 +210,25 @@
             }
         },
         {
+            "Key": "1ee0f678-ad85-4252-9e2d-2ae65cee52dd",
+            "Value": {
+                "id": "7cd623d8-2b5b-4b97-aa21-28a83683f9d2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/ts_PinkGround\/ts_PinkGround.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "202d4fb1-9615-4f96-95cc-82c0cef4d455",
             "Value": {
                 "id": "82292681-f18e-4c08-af65-ba3d442e83b4",
@@ -530,6 +549,25 @@
                 ],
                 "resourcePath": "sprites\/spr_PlayerGun\/spr_PlayerGun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5553a5cd-b0b5-465f-80f3-c00d02bad190",
+            "Value": {
+                "id": "4f59766a-c4c6-43de-9222-22d1172f5e50",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/5553a5cd-b0b5-465f-80f3-c00d02bad190.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1176,6 +1214,25 @@
                 ],
                 "resourcePath": "rooms\/rm_TestRoom\/rm_TestRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "d1ac0938-a345-48e0-a617-2aa5c5285646",
+            "Value": {
+                "id": "672e482f-1c72-4153-9996-184f8d759917",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_PinkGroundTileSet\/spr_PinkGroundTileSet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
