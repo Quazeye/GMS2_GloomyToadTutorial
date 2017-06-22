@@ -1,4 +1,4 @@
-// Ssving the state of keyboard checks for easier changing of actions later
+// Saving the state of keyboard checks for easier changing of actions later
 // and easier readability.  These are booleans returning true or false.
 upKeyDown = keyboard_check(jumpKey);
 upKeyPressed = keyboard_check_pressed(jumpKey)
