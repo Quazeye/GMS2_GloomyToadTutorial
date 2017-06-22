@@ -1,9 +1,17 @@
+/// @description Handle Idle Animations for the Player
+
+// This first if statement code we only want to execute the first step after the player has
+// entered the idle state, or else our sprite index will constantly be change to spr_PlayerIdle.
 if (!idleFlag) {
 	sprite_index = spr_PlayerIdle;
 	idleFlag = true;
 	idleAnimationTimer = 60 + round(random(150));
 }
 
+// If timer runs out we want to reset the timer, choose a random animation, and
+// if the random animation is not the blinking animation we choose a random idle sprite.
+// Else if the idleAnimationTimer is greater than 0 we want to check if we are on our
+// blinking sprite, and if so we need to check to see if the animation has completed.
 if (--idleAnimationTimer <= 0) {
 	idleAnimationTimer = 50 + round(random(150));
 	if choose (true, false, false, false) {
