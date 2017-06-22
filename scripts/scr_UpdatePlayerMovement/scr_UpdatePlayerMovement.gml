@@ -30,17 +30,22 @@ if (leftKeyDown && !place_meeting(x - 1, y, obj_BlockParent)) {
 		xSpeed = xSpeed - accel;
 	}
 }
+
+// If neither right key or left key are pressed or they are both pressed we want to slow down with friction.
 if (!rightKeyDown && !leftKeyDown || rightKeyDown && leftKeyDown) {
 	if (xSpeed != 0) {
 		xSpeed = xSpeed - sign(xSpeed) * frict;
 	}
 }
+
+// Apply our xSpeed to our players x-coordinate in game.
 if (!place_meeting(x + xSpeed, y, obj_BlockParent)) {
 	x = x + xSpeed;
 } else {
+	// Move to be flush against the wall by moving 1 pixel at a time in the case our xSpeed was greater than 1 previously.
 	while (!place_meeting(x + sign(xSpeed), y, obj_BlockParent)) {
 		x = x + sign(xSpeed);
-	}
+	}  // The while loop will finish before the draw event is called as it is a while loop.
 	xSpeed = 0;
 }
 
@@ -74,6 +79,7 @@ if (vertState != verticalState.onGround) {
 if (!place_meeting(x, y + ySpeed, obj_BlockParent)) {
 	y = y + ySpeed;
 } else {
+	// Become flush with the floor (Similar to the x-application above
 	move_contact_solid(point_direction(x,y, x,y + ySpeed), maxFallSpeed);
 	ySpeed = 0;
 }
