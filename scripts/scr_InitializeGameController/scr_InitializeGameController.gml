@@ -22,6 +22,9 @@ randomize();
 // Create main camera that follows player.
 instance_create_layer(0,0, global.mainLayer, obj_Camera);
 
+// Create the draw gui object
+instance_create_layer(0,0, global.mainLayer, obj_DrawGuiController);
+
 // Player Stats
 playerGunFireRate = 20;
 playerMaxFuel = 50;

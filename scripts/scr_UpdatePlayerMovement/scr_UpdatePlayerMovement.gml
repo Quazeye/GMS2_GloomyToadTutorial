@@ -19,7 +19,7 @@ if (xSpeed != 0) {
 
 // Handle increasing jet fuel when not jetpacking
 
-if (currentFuel < maxFuel && vertState && vertState != verticalState.jetPacking) {
+if (currentFuel <= maxFuel && vertState != verticalState.jetPacking) {
 	currentFuel += fuelChargeRate;
 }
 
