@@ -12,10 +12,15 @@ shootKeyDown = keyboard_check(shootKey);
 //} else if (xSpeed < 0) {
 //	image_xscale = -1;
 //}
-
 // This replaces the above if statement and does the same thing.
 if (xSpeed != 0) {
 	image_xscale = sign(xSpeed);
+}
+
+// Handle increasing jet fuel when not jetpacking
+
+if (currentFuel < maxFuel && vertState && vertState != verticalState.jetPacking) {
+	currentFuel += fuelChargeRate;
 }
 
 // ---------------------------------------------------------------

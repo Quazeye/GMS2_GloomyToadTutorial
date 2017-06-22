@@ -30,6 +30,11 @@ jetpack = instance_create_depth(x,y, depth + 1, obj_PlayerJetpack);
 idleFlag = false;  // This is set to true when vertState = onGround and xSpeed = 0.
 idleAnimationTimer = 0; // This is the timer used to switch into a new idle animation sequence.
 
+// Jetpack variables
+currentFuel = obj_GameController.playerMaxFuel;
+maxFuel = obj_GameController.playerMaxFuel;
+fuelLossRate = obj_GameController.playerFuelLossRate;
+fuelChargeRate = obj_GameController.playerFuelChargeRate;
 
 
 

@@ -5,6 +5,7 @@ if (place_meeting(x,y + 1, obj_BlockParent)) {
 }
 
 // Transition to jetPacking state if up key is being held.
-if (upKeyDown) {
+if (upKeyDown && currentFuel > 10) {
 	vertState = verticalState.jetPacking;
 }
+

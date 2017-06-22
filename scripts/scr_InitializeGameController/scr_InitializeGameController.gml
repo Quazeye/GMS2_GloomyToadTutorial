@@ -24,3 +24,7 @@ instance_create_layer(0,0, global.mainLayer, obj_Camera);
 
 // Player Stats
 playerGunFireRate = 20;
+playerMaxFuel = 50;
+playerFuelLossRate = 0.5;
+playerFuelChargeRate = 1;
+
