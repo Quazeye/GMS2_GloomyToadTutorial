@@ -17,7 +17,7 @@ if (xSpeed != 0) {
 	image_xscale = sign(xSpeed);
 }
 
-// Handle increasing jet fuel when not jetpacking
+// Handle increasing jet fuel when not jetpacking.
 
 if (currentFuel <= maxFuel && vertState != verticalState.jetPacking) {
 	currentFuel += fuelChargeRate;
