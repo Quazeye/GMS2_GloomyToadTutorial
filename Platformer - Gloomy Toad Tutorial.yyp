@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "161b3f51-730f-47c8-a0c5-3c9fcd9dc53b",
+            "Value": {
+                "id": "cecab0c1-60ed-4eb0-ad26-8ad744906a20",
+                "resourcePath": "views\\161b3f51-730f-47c8-a0c5-3c9fcd9dc53b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "189c422e-b39d-4ba0-8df9-f3759e6e3c61",
             "Value": {
                 "id": "101a2854-b892-4339-b345-426b262e91ec",
@@ -84,6 +92,14 @@
                 "id": "44f14d72-75b8-407f-a28d-4871523f854c",
                 "resourcePath": "sprites\/spr_PlayerJetpackOff\/spr_PlayerJetpackOff.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1a442b4b-3b75-41a9-b2a7-2f4bae0ccc8c",
+            "Value": {
+                "id": "38711381-750b-447b-803e-9e84b88603a9",
+                "resourcePath": "objects\\obj_SlimeEnemy\\obj_SlimeEnemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -295,6 +311,14 @@
             }
         },
         {
+            "Key": "6bb80639-6949-4e9a-8f4b-8d250051e53d",
+            "Value": {
+                "id": "e8c6e83f-0fbe-4210-8469-1870edc09988",
+                "resourcePath": "views\\6bb80639-6949-4e9a-8f4b-8d250051e53d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6cfe069f-19c3-46cf-bb81-f5248004670c",
             "Value": {
                 "id": "469fb966-88ee-451f-8496-7c94acb31332",
@@ -484,6 +508,14 @@
                 "id": "b9c5516e-cd18-4461-9a78-7e014caec5f7",
                 "resourcePath": "views\/bd932b8d-083b-49a1-8ab7-7b64f9c725b8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "beecc8ea-a94c-4ebc-93a6-b69ec14dde49",
+            "Value": {
+                "id": "0d43cbe1-f114-46da-a335-e7e5858f2dd2",
+                "resourcePath": "sprites\\sSlimeEnemy\\sSlimeEnemy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
